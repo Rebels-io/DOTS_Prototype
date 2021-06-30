@@ -1,2 +1,2 @@
-# DOTS_Prototype
- 
+# DOTS Prototype
+This is a prototype made to accompany the advisory report written for Rebels by Tim Wolfram between February-July of 2021. The objective was to research DOTS and summarise the findings; these have been written into an advisory report. This report constains advice on the use of DOTS, in what situations DOTS is ideal, and to what extent DOTS should be used by Rebels' Unity team. It also contains a chapter dedicated to the problems I ran into while trying to make this prototype. It contains a few components that can make it easier to understand and/or implement DOTS. For example, the folder Assets/Scripts/DOTS/Hybrid will have a few components that will make it easier to synchronize your GameObjects with Entities.
