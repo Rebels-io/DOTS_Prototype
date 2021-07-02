@@ -28,9 +28,9 @@ Some features that might be more difficult to implement:
 
 ## Sources for learning about DOTS
 Whenever looking for DOTS information (especially syntax), make sure the source isn't too old. Much has changed about DOTS syntax since the first versions, and search engines like Google will often send you to old tutorials or documentation, where the syntax is much less easy and readable. For DOTS concepts, old sources are usually fine. I'd recommend following these Unity Learn courses: 
-- “Entity Component System” is a compilation of video tutorials which introduce the core concepts of DOTS: the Entity Component System structure, the Job System, and the Burst Compiler.
-- “What is DOTS and why is it important?:” is a more detailed introduction to DOTS and its concepts.
-- “DOTS Best Practices” is an in-depth guide to the best practices DOTS developers should be aware of, and the concepts of multithreading and Data-Oriented Design. It consists of three parts:
+- “[Entity Component System](https://learn.unity.com/tutorial/entity-component-system)” is a compilation of video tutorials which introduce the core concepts of DOTS: the Entity Component System structure, the Job System, and the Burst Compiler.
+- “[What is DOTS and why is it important?](https://learn.unity.com/tutorial/what-is-dots-and-why-is-it-important)” is a more detailed introduction to DOTS and its concepts.
+- “[DOTS Best Practices](https://learn.unity.com/course/dots-best-practices)” is an in-depth guide to the best practices DOTS developers should be aware of, and the concepts of multithreading and Data-Oriented Design. It consists of three parts:
   - Understand data-oriented design
   - Data design
   - Implementation and optimization
