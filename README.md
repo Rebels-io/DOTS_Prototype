@@ -10,10 +10,10 @@ Currently, the prototype is fairly simple. You can walk around using the WASD ke
 ## Available scripts
 The prototype contains a number of simple DOTS systems. For example, the folder Assets/Scripts/DOTS/SineWave shows you how to create a simple data component and Entities.ForEach function.
 
-The folder "Assets/Scripts/DOTS/Hybrid" contains a few classes that are currently necessary to link the old GameObject world to the new DOTS/ECS world. For example, the script UpdateAnimatorComponentVelocity contains an example of how to update a GameObject's animator component with the values of the Unity.Physics DOTS component: PhysicsVelocity (which will be automatically added when using the component "Physics Body").
+The folder Assets/Scripts/DOTS/Hybrid contains a few classes that are currently necessary to link the old GameObject world to the new DOTS/ECS world (often referred to as "Hybrid ECS" or "Hybrid DOTS"). For example, the script UpdateAnimatorComponentVelocity contains an example of how to update a GameObject's Animator component with the values of the Unity.Physics DOTS component: PhysicsVelocity (which will be automatically added when using the component "Physics Body").
 
 The script Assets/Scripts/DOTS/RestartLevelSystem.cs shows how to load a new scene; the DOTS world is not considered to be part of a scene, and loading a new scene involves some extra steps. It also shows you how to use a NativeArray to pass data from a worker thread to the main thread. 
-The folder "Assets/Scripts/DOTS/Collisions" has some scripts that show how to implement collisions/triggers with the Unity Physics package.
+The folder Assets/Scripts/DOTS/Collisions has some scripts that show how to implement collisions/triggers with the Unity Physics package.
 ## Practices
 The syntax of DOTS is very different from regular (MonoBehaviour) Unity code. To get used to this syntax, I recommend starting small. Try to create some simple systems that already exist in the prototype. First, try to create a movement system; this should be relatively simple. Another simple system you can implement to practice DOTS syntax is moving a number of objects using some kind of math function, such as a sine wave. You can use the existing implementations to see an example of how to implement these functionalities, or you can use it to compare to your own code.
 
