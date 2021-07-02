@@ -2,7 +2,7 @@
 This is a prototype made to accompany the advisory report written for Rebels by Tim Wolfram between February-July of 2021. The objective was to research DOTS and summarise the findings; these have been written into an advisory report. This report constains advice on the use of DOTS, in what situations DOTS is ideal, and to what extent DOTS should be used by Rebels' Unity team. It also contains a chapter dedicated to the problems I ran into while trying to make this prototype. It contains a few components that can make it easier to understand and/or implement DOTS. For example, the folder Assets/Scripts/DOTS/Hybrid will have a few components that will make it easier to synchronize your GameObjects with Entities.
 
 ## Note for Rebels team members who participated in the training session on the 2nd of June
-I created a survey to check how easily new developers can grasp the concepts of DOTS. If you want to try out DOTS and you want to help my research, please fill out [this survey](https://forms.gle/mKajybjihhf8Gh3d9). Results will be collected until the 5th of June. 
+I created a survey to check how easily new developers can grasp the concepts of DOTS. If you want to try out DOTS and you want to help my research, please fill out [this survey](https://forms.gle/mKajybjihhf8Gh3d9). 
 
 ## Using the prototype
 Currently, the prototype is fairly simple. You can walk around using the WASD keys and jump using the space key. The UI contains a single text field that updates based on the amount of Rampage collected. Collecting Rampage doesn't do anything currently other than increase the counter of picked up items (there is a counter per color)
