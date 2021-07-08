@@ -3,15 +3,6 @@ using Unity.Mathematics;
 using Unity.Transforms;
 using UnityEngine;
 
-//[DisallowMultipleComponent]
-//public class RotateAuthoring : MonoBehaviour, IConvertGameObjectToEntity { 
-//    public float RotationSpeed;
-//    public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
-//    {
-//        dstManager.AddComponentData(entity, new RotateComponent{ RotationSpeed = RotationSpeed });
-//    }
-//}
-
 [GenerateAuthoringComponent]
 public struct RotateComponent:  IComponentData {
     public float3 RotationEulerSpeed;

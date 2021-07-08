@@ -2,7 +2,9 @@
 using System;
 using Unity.Entities;
 using UnityEngine;
-
+/// <summary>
+/// This class is redundant; it could easily be replaced by using [GenerateAuthoringComponent] on the class Lifetime. This would be the class it would generate, with the only difference being the name of the variable in the inspector.
+/// </summary>
 public class LifetimeAuthoring : MonoBehaviour, IConvertGameObjectToEntity
 {
     [SerializeField] float TotalLifeTime;

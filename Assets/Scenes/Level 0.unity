@@ -6538,6 +6538,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pot - Red Fruit Redemption
       objectReference: {fileID: 0}
+    - target: {fileID: 8128037793179046690, guid: 8770b75a23d21424681927c4ab06b4d4, type: 3}
+      propertyPath: RotationEulerSpeed.z
+      value: 0.004
+      objectReference: {fileID: 0}
     - target: {fileID: 8592554877844753614, guid: 8770b75a23d21424681927c4ab06b4d4, type: 3}
       propertyPath: RandomOffset
       value: 1
@@ -7392,7 +7396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5133658429806950573, guid: bd8e20dda1aa7264f9f464ab9fcc7416, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 9.26
       objectReference: {fileID: 0}
     - target: {fileID: 5133658429806950573, guid: bd8e20dda1aa7264f9f464ab9fcc7416, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7424,7 +7428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5133658430030027298, guid: bd8e20dda1aa7264f9f464ab9fcc7416, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.3
+      value: 0.39
       objectReference: {fileID: 0}
     - target: {fileID: 5133658430030027298, guid: bd8e20dda1aa7264f9f464ab9fcc7416, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7432,7 +7436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5133658430030027298, guid: bd8e20dda1aa7264f9f464ab9fcc7416, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5
+      value: -0.75
       objectReference: {fileID: 0}
     - target: {fileID: 5133658430030027298, guid: bd8e20dda1aa7264f9f464ab9fcc7416, type: 3}
       propertyPath: m_LocalRotation.w
