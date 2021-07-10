@@ -1,5 +1,6 @@
-# DOTS Prototype
-This is a prototype made to accompany the advisory report written for Rebels by Tim Wolfram between February-July of 2021. The objective was to research DOTS and summarise the findings; these have been written into an advisory report. This report constains advice on the use of DOTS, in what situations DOTS is ideal, and to what extent DOTS should be used by Rebels' Unity team. It also contains a chapter dedicated to the problems I ran into while trying to make this prototype. It contains a few components that can make it easier to understand and/or implement DOTS. For example, the folder Assets/Scripts/DOTS/Hybrid will have a few components that will make it easier to synchronize your GameObjects with Entities.
+# DOTS Prototype and Advisory Report
+This is a prototype made to accompany the advisory report written for Rebels by Tim Wolfram between February-July of 2021. The objective was to research DOTS and summarise the findings; these have been written into an advisory report. This report constains advice on the use of DOTS, in what situations DOTS is ideal, and to what extent DOTS should be used by Rebels' Unity team. It also contains a chapter dedicated to the problems I ran into while trying to make this prototype. The advisory report is included in this repository 
+The prototype contains a few components that can make it easier to understand and/or implement DOTS. For example, the folder Assets/Scripts/DOTS/Hybrid will have a few components that will make it easier to synchronize your GameObjects with Entities. Other scripts show examples of physics triggers, ray casting, movement, and more.
 
 ## Note for Rebels team members who participated in the training session on the 2nd of June
 I created a survey to check how easily new developers can learn DOTS. If you want to try out DOTS and you want to help my research, please fill out [this survey](https://forms.gle/mKajybjihhf8Gh3d9). 
@@ -14,6 +15,7 @@ The folder Assets/Scripts/DOTS/Hybrid contains a few classes that are currently 
 
 The script Assets/Scripts/DOTS/RestartLevelSystem.cs shows how to load a new scene; the DOTS world is not considered to be part of a scene, and loading a new scene involves some extra steps. It also shows you how to use a NativeArray to pass data from a worker thread to the main thread. 
 The folder Assets/Scripts/DOTS/Collisions has some scripts that show how to implement collisions/triggers with the Unity Physics package.
+
 ## Practices
 The syntax of DOTS is very different from regular (MonoBehaviour) Unity code. To get used to this syntax, I recommend starting small. Try to create some simple systems that already exist in the prototype. First, try to create a movement system; this should be relatively simple. Another simple system you can implement to practice DOTS syntax is moving a number of objects using some kind of math function, such as a sine wave. You can use the existing implementations to see an example of how to implement these functionalities, or you can use it to compare to your own code.
 

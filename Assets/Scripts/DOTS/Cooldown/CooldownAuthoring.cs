@@ -1,4 +1,5 @@
-﻿using Unity.Entities;
+﻿using Unity.Collections;
+using Unity.Entities;
 using UnityEngine;
 
 namespace Assets.DOTS.Cooldown
@@ -20,6 +21,7 @@ namespace Assets.DOTS.Cooldown
         protected override void OnCreate()
         {
             entityCommandBufferSystem = World.GetOrCreateSystem<EntityCommandBufferSystem>();
+            const bool TEST_COOLDOWN = true;
         }
 
         protected override void OnUpdate()
